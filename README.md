@@ -7,6 +7,7 @@ Verifica en tiempo real, antes de realizar el pedido de orden, que la cantidad d
     Caso afirmativo, hay disponibilidad de producto, la app genera la el pedido y luego la orden informando lo sucedido a raves de un mensaje emergente. Se registra en la base de Firebase y además envia un correo electrónico informando los datos de comprador y el detalle de la compra al vendedor.
     Caso negativo, no hay algún/os producto/s, informa a traves de un mensaje emergente que el producto no se encuentra disponible y además se envia un correo electrónico para informar el/los faltante/s de producto al vendedor.
 
+![NuevosAires](https://user-images.githubusercontent.com/92854628/183307789-9adb06bc-d07c-4da4-ad6a-a71ce1e2bb05.gif)
 
 # Bibliotecas utilizadas 
 
@@ -19,3 +20,7 @@ SweetAlert - libreria hace que los mensajes emergentes sean fáciles y bonitos.
 React bootstrap -  es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.
 
 FormSubmit - permite iniciar el envío del formulario mediante JavaScript. Podemos utilizarlo para crear y enviar nuestros propios formularios al servidor.(Se utiliza sin instalación)
+
+# Deploy
+
+https://nuevosaires.netlify.app
