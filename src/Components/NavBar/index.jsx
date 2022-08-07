@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg" className='nav'>
       <>
-        <Link to='/' className="navbar-brand" id="blanco"><img  src='/img/1.jpg' alt="NuevosAires" className="logo" />Nuevos Aires | Ecommerce</Link>
+        <Link to='/' className="navbar-brand" id="blanco"><img  src='/img/1.jpg' alt="NuevosAires" className="logo" />  Nuevos Aires | Ecommerce</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

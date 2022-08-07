@@ -47,8 +47,8 @@ const ItemsDetail = ({producto}) => {
           <div className='ui'><ItemCount agregar={confirmacion} stock={producto.stock}/></div>
           :
           <>
-            <div className='ui'><button onClick={terminar} className="buttonAddCart">Confirmar</button></div>
-            <div className='ui'><button onClick={()=>{confirmacion(0)}} className="buttonAddCart">Volver</button></div>
+            <div className='ui'><button onClick={terminar} className="buttonAddCart buttonAddCart1">Confirmar</button></div>
+            <div className='ui'><button onClick={()=>{confirmacion(0)}} className="buttonAddCart buttonAddCart1">Volver</button></div>
           </>
         }
           </div>

@@ -75,3 +75,20 @@
     }
 
 }
+
+@media(max-whidt: 360px){
+    .i{
+        width: 90%;
+    }
+    .o{
+        width: 100%;
+        font-size: small;
+    }
+    .er{
+        font-size: small;
+    }
+    .aa{
+        font-size: 0;
+    }
+
+}

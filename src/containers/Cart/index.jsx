@@ -64,7 +64,7 @@ const Cart = () => {
               </tr>
             </thead>
             <br></br>
-            <tbody>
+            <tbody className='er'>
             {cart.map(prod => {
               return <tr key={prod.id} className='aa'>
                 <td ><img src={prod.image} style={{ width: '60px', height: '60px', padding: '0.1rem'}} alt={prod.title}></img></td>
