@@ -76,19 +76,35 @@
 
 }
 
-@media(max-whidt: 360px){
+@media(max-width: 399px){
     .i{
         width: 90%;
+        margin-right: auto;
     }
     .o{
-        width: 100%;
         font-size: small;
     }
     .er{
         font-size: small;
     }
     .aa{
-        font-size: 0;
+        font-size:small;
+    }
+    .e{
+        width: 100%;
+        padding: 0rem;
+    }
+    .buttondel{
+        width: 15px;
+        height: 15px;
+        font-size: smaller;
+    }
+    .u{
+        font-size: small;
+    }
+    .buttonAddCart2{
+        height: 70%;
+        width: 60%;
     }
 
 }

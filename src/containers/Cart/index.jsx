@@ -88,16 +88,16 @@ const Cart = () => {
               </tr>
             </tfoot>
             </table>
-            <button onClick={()=>{confirmo()}} className="buttonAddCart">Comprar</button>
-            <button onClick={vaciar} className="buttonAddCart">Vaciar</button>
+            <button onClick={()=>{confirmo()}} className="buttonAddCart buttonAddCart1 buttonAddCart2">Comprar</button>
+            <button onClick={vaciar} className="buttonAddCart buttonAddCart1 buttonAddCart2">Vaciar</button>
             {confirmar && <ModalContainer total={total} setCart={setCart} setConfirmar={setConfirmar} volver={volver} />}
             <h2 className='car' onClick={volver}>Seguir comprando</h2>
           
             </>
           :
           <>
-          <h2 className='caar'>Seguir comprando</h2>
-          <button onClick={volver} className="buttonAddCart">Volver</button>
+          <h2 className='caar buttonAddCart1 buttonAddCart2'>Seguir comprando</h2>
+          <button onClick={volver} className="buttonAddCart buttonAddCart1 buttonAddCart2">Volver</button>
           </>
         }
       </div>

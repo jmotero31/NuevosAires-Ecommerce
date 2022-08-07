@@ -45,6 +45,8 @@
 }
 #blanco{
     color: blanchedalmond;
+}
+.blanco1{
     padding-left: 1rem;
 }
 .centrar{
@@ -54,7 +56,7 @@
 .tamanoCarro{
     size: 10rem;   
 }
-@media(max-width: 376px){
+@media(max-width: 390px){
 
     .navbar-brand {
         margin-right: 0rem !important;
@@ -66,7 +68,8 @@
     .navbar-toggler {
         margin-right: 0.6rem; 
     }
-    #blanco{
+    .blanco1{
         padding-left: 0.5rem;
+        font-size: smaller;
     }
 }
