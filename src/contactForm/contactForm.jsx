@@ -73,7 +73,7 @@ const ContactFrom = ({total, closeModal1, setCart, volver}) => {
   useEffect(() => {
       if(loading){
         const pedidoConfirmado = pedido(form, cart, total)
-        orden(cart, pedidoConfirmado, {closeModal1, setCart, volver, form})
+        orden({cart, pedidoConfirmado, closeModal1, setCart, volver, form})
       }
   }, [loading])
 
