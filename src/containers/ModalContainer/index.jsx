@@ -4,7 +4,7 @@ import ContactFrom from '../../contactForm/contactForm'
 
 const ModalContainer = ({total, setCart, setConfirmar, volver}) => {
     const [isOpenModal1, openModal1, closeModal1] = useModal(true)
-
+    console.log(openModal1)
     if(!isOpenModal1){
       setConfirmar(false)
     }

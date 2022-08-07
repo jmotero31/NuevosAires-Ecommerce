@@ -21,7 +21,7 @@ const Cart = () => {
       title: "¿Estás Seguro?",
       text: "Desea vaciar el Carrito de compras",
       icon: "warning",
-      buttons: true,
+      // buttons: true,
       dangerMode: true,
       buttons: ["No", "Si"],
     })
@@ -67,7 +67,7 @@ const Cart = () => {
             <tbody>
             {cart.map(prod => {
               return <tr key={prod.id} className='aa'>
-                <td ><img src={prod.image} style={{ width: '60px', height: '60px', padding: '0.1rem'}}></img></td>
+                <td ><img src={prod.image} style={{ width: '60px', height: '60px', padding: '0.1rem'}} alt={prod.title}></img></td>
                 <td>{prod.title}</td>
                 <td>{prod.cant}</td>
                 <td>$ {prod.cant * prod.price}</td>

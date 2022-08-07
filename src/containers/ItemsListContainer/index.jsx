@@ -14,7 +14,7 @@ const ItemsListContainer = ({greeting}) => {
   const parametro = useParams()
  
   const productos = productosFire
-
+  console.log(erro)
  useEffect(() => {
   if (parametro?.categoryId){
     const filtrados = productos.filter(produc => produc.category === parametro.categoryId)

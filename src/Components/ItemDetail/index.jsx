@@ -30,7 +30,7 @@ const ItemsDetail = ({producto}) => {
       
         <div >
           <div className='contenedorIm'>
-            <img src={producto.image} style={{width: '220px', height: '220px'}}></img>
+            <img src={producto.image} className= "imagen" alt={producto.title}></img>
           </div>
           <br></br>
           <div className='contenedorcont'>
