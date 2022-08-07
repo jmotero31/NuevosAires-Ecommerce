@@ -1,0 +1,54 @@
+/* reseteo basico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.containerItemCount {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.buttonCount {
+  height: 30px;
+  width: 50px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: rgba(73, 177, 177, 0.665);
+  font-size: large;
+  border-radius: 10px;
+  
+}
+
+.numberCount {
+  color: rgba(73, 177, 177, 0.665);
+  width: 50px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.buttonAddCart {
+  width: 180px;
+  height: 30px;
+  margin: 10px 0px;
+  background-color: rgba(73, 177, 177, 0.665) !important;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.ui{
+  justify-content: center;
+}
+.buttonAddCart:hover {
+  background-color: rgba(32, 121, 121, 0.486);
+}

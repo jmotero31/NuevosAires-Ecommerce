@@ -1,0 +1,32 @@
+.validacion {
+    /* font-weight: bold; */
+    color: rgba(165, 42, 42, 0.52);
+    font-size: small;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+}
+.ingreso{
+    border: none;
+    
+    text-align: center;
+}
+.boton{
+    width: 30%;
+}
+.labe{
+    color: rgba(73, 177, 177, 0.665);
+    font-size: 120%;
+    -webkit-text-stroke-width: medium;
+    margin-top: 0.6rem;
+}
+.h{
+    color: rgba(13, 172, 172, 0.665);
+    -webkit-text-stroke-width: medium;
+    text-decoration:underline;
+    
+}

@@ -1,0 +1,27 @@
+/* [.estilo1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 2.5rem;
+    grid-column-gap: 2.5rem;
+    text-align: center;
+    padding-left: 1rem;
+    
+}] */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ItemListcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    width: 100%;
+    justify-content: center;
+}

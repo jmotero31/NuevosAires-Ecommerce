@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1, 
+        "nombreProducto": "Dry Stout", 
+        "descripcion": "Cerveza de origen irlandes muy oscura de cuerpo medio a liviano con aromas a café torrado y chocolate previamnete del uso de cebada tostada y cascarilla de cacao con un sabor tostado con final seco", 
+        "graduacion": "Alc 5,5% - Ibus 25", 
+        "premio": "Medalla Bronce copa argentina de cervezas 2016", 
+        "precio": 230, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 2, 
+        "nombreProducto": "Red Honey", 
+        "descripcion": "Es una versión de autor donde el agregado de miel es sin fermentar y de esa manera se logran sabores y aromasmas intensos", 
+        "graduacion": "Alc 5,4% - Ibus 18", 
+        "premio": "Medalla de plata copa Argentina cervezas 2019 | Medalla de bronce copa", 
+        "precio": 200, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 3, 
+        "nombreProducto": "Irish Red Ale", 
+        "descripcion": "Una cerveza facil de tomar, logeramente maltosa en el balance con un suave dulzor inicial remitente al caramelo, con notas de granobizcocho y un toque de sequedad tostada al final", 
+        "graduacion": "Alc 5,3% - Ibus 19", 
+        "premio": "Medalla de oro copa argentina de cervezas 2020 | Medalla de oro copa Barrilito de oro Panamá 2019 | Medalla de bronce copa Argegentina de cervezas 2018", 
+        "precio": 220, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "nombreProducto": "Kolsch", 
+        "descripcion": "Es una cerveza rubia de origen aleman, ligera, ligera, cristalina, fresca y balanceada", 
+        "graduacion": "Alc 5,3% - Ibus 19", 
+        "premio": "Medalla Bronce copa cervezas Ecuador 2019", 
+        "precio": 235, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 5, 
+        "nombreProducto": "Wild Maracuyá", 
+        "descripcion": "Este ejemplar es una versión sour americana de una cerveza de frutas lograda con un estilo base clasico en una fermentación mixta de maracuya en barrica de roble. Es una cerveza ligera, acida y afrutada", 
+        "graduacion": "Alc 5,4% - Ibus 15", 
+        "premio": "Medalla de Bronce copa Argentina de cervezas 2019 | Medalla de oro copa platense de cervezas 2019 | Medalla de plata copa aro Mexico 2019| Medalla de bronce copa barilito de panamá 2019 | Medalla de oro copa Argentina de cervezas 2018", 
+        "precio": 260, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 6, 
+        "nombreProducto": "American Ipa", 
+        "descripcion": "Una versión americana de estilo histórico inglés, cerveza fuertemente lupulada amarga y con aromas cítricos y a frutas tropicales maduras", 
+        "graduacion": "Alc 6,3% - Ibus 50", 
+        "premio": "Colaboración Rieger y Sustancia Zeta", 
+        "precio": 250, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 7, 
+        "nombreProducto": "Rusian Imperial Stout", 
+        "descripcion": "Cerveza oscura y fuerte, originaria en Londres con notas de chocolate, café, caramelo oscuros y frutos negro. Cremosa, intensa, compleja y de color negro azabache", 
+        "graduacion": "Alc 9% - Ibus 45", 
+        "premio": "", 
+        "precio": 250, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    },
+    {
+        "id": 8, 
+        "nombreProducto": "Darck Mild", 
+        "descripcion": "Cerveza liviana de estilo británico, maltosa, facil de beber, con notas a caramelos, chocolates, café y un final seco", 
+        "graduacion": "Alc 3,5% - Ibus 20", 
+        "premio": "Colaboración Rieger y Sustancia Zeta", 
+        "precio": 250, 
+        "img": "./img/s.jpg",
+        "stock": 20
+    }
+]

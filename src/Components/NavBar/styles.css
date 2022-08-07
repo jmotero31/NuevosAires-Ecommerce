@@ -1,0 +1,69 @@
+/* reseteo basico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* Barra de navegacion */
+.logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%; 
+}
+.logo1{
+    height: 6rem;
+    width: 6rem; 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem 0rem 1rem ;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle at 113.39% 26.93%, #00b9bc 0, #00a5ad 16.67%, #008f9b 33.33%, #0c7885 50%, #1a616e 66.67%, #1f4e59 83.33%, #1f3d46 100%);
+}
+.ul{    
+    display: flex;
+    width: 30rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.a{
+    color: white !important; 
+    font-weight: 600; 
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.a:hover {
+    color: rgba(73, 177, 177, 0.665) !important;
+    /* font-size: 1.1rem; */
+}
+#blanco{
+    color: blanchedalmond;
+    padding-left: 1rem;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.tamanoCarro{
+    size: 10rem;   
+}
+@media(max-width: 376px){
+
+    .navbar-brand {
+        margin-right: 0rem !important;
+        font-size: 0.8rem !important;
+    }
+    .nav{
+        padding: 0rem ;
+    }
+    .navbar-toggler {
+        margin-right: 0.6rem; 
+    }
+}
