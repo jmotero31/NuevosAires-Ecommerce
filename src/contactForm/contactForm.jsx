@@ -1,5 +1,5 @@
 
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { useForm } from '../Components/Hooks/useForm'
 import pedido from '../firebase/pedido';
 import './styles.css'
@@ -57,26 +57,26 @@ const validateForm = (form) =>{
 }
 
 
+
+
 const ContactFrom = ({total, closeModal1, setCart, volver}) => {
   const {form, 
     errors,
     loading,
     handleChange,
     handleBlur,
-    handleSubmit,
-    // setLoading
+    handleSubmit
     } = useForm(initialForm, validateForm)
     
-  const {cart} = useContext(Shop)
-  
+    const {cart} = useContext(Shop)
     
-  useEffect(() => {
-      if(loading){
-        const pedidoConfirmado = pedido(form, cart, total)
-        orden({cart, pedidoConfirmado, closeModal1, setCart, volver, form})
-      }
-  }, [loading])
-
+  // useEffect(() => {
+  // }, [loading])
+  
+  if(loading){
+    const pedidoConfirmado = pedido(form, cart, total)
+    orden({cart, pedidoConfirmado, closeModal1, setCart, volver, form})
+  }
  
   return (
     <>

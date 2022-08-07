@@ -4,7 +4,7 @@ import { db } from "../firebase/config"
 import { helpHttp } from "../utils/helpHttp"
 
 
-const orden = (cart, pedidoConfirmado, {closeModal1, setCart, volver, form}) => {
+const orden = ({cart, pedidoConfirmado, closeModal1, setCart, volver, form}) => {
 
     
     //Primer paso: abrir un batch
