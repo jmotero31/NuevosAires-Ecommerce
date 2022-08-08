@@ -78,7 +78,7 @@
 
 @media(max-width: 399px){
     .i{
-        width: 90%;
+        width: 100%;
         margin-right: auto;
     }
     .o{
@@ -105,6 +105,7 @@
     .buttonAddCart2{
         height: 70%;
         width: 60%;
+        font-size: small;
     }
 
 }
