@@ -56,9 +56,6 @@ const validateForm = (form) =>{
   return errors
 }
 
-
-
-
 const ContactFrom = ({total, closeModal1, setCart, volver}) => {
   const {form, 
     errors,
@@ -68,11 +65,8 @@ const ContactFrom = ({total, closeModal1, setCart, volver}) => {
     handleSubmit
     } = useForm(initialForm, validateForm)
     
-    const {cart} = useContext(Shop)
-    
-  // useEffect(() => {
-  // }, [loading])
-  
+  const {cart} = useContext(Shop)
+
   if(loading){
     const pedidoConfirmado = pedido(form, cart, total)
     orden({cart, pedidoConfirmado, closeModal1, setCart, volver, form})

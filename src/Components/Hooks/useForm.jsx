@@ -41,5 +41,4 @@ export const useForm = (initialForm, validateForm) => {
         handleSubmit,
         setLoading,
     }
-
 }

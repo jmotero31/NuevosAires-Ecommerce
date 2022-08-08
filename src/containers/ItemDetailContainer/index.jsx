@@ -17,16 +17,10 @@ const ItemDetailContainer = () => {
             const docRef = doc(db, "productos", parametro.productId);
             const docSnap = await getDoc(docRef);
             if (docSnap.exists()) {
-                // console.log(docSnap.id)
-                // console.log("Documento: ", docSnap.data());
                 const data = {id: docSnap.id, ...docSnap.data()}
                 setDetalle(data)
               } else {
-                // console.log("No se encontro el documento!");
               }
-            // const respuesta = await fetch(`https://fakestoreapi.com/products/${parametro.productId}`)
-            // const data = await respuesta.json()
-            // setDetalle(data)
         } catch (error) {
             console.log(error)
         }

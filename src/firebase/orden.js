@@ -29,8 +29,6 @@ const orden = ({cart, pedidoConfirmado, closeModal1, setCart, volver, form}) => 
             } else {
                 outOfStock.push(producto)
             }
-            // console.log("Productos fuera de stock:");
-            // console.log(outOfStock);
     
             if (outOfStock.length === 0) {
                 addDoc(collection(db, 'ordenes'), pedidoConfirmado).then(({ id }) => {

@@ -29,7 +29,6 @@ const agregarProducto = (producto, cantidad) => {
  }
 
   return (
-    // <Shop.Provider value ={{estadoA, setEstadoA}}>     // doble llave porque el valor es un objeto de Java Scrip como el style stilo en linea
     <Shop.Provider value ={{estadoA, setEstadoA, agregarProducto, cart, remover, setCart }}> 
         {children}
     </Shop.Provider>

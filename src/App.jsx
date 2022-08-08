@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar';
 import ItemsListContainer from './containers/ItemsListContainer';
@@ -7,8 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from './Components/NotFound';
 import Cart from './containers/Cart';
 import ShopProvider from './Contex/ShopContext';
-
-
 
 function App() {
   return (

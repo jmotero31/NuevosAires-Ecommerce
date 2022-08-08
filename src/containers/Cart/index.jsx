@@ -21,7 +21,6 @@ const Cart = () => {
       title: "¿Estás Seguro?",
       text: "Desea vaciar el Carrito de compras",
       icon: "warning",
-      // buttons: true,
       dangerMode: true,
       buttons: ["No", "Si"],
     })
